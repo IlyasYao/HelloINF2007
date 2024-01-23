@@ -1,0 +1,22 @@
+Tasks: 390 total,   1 running, 389 sleeping,   0 stopped,   0 zombie
+  Mem:  2019788K total,  1744692K used,   275096K free,     2920K buffers
+ Swap:  1514836K total,   862188K used,   652648K free,   427916K cached
+1000%cpu   4%user   0%nice  31%sys 964%idle   0%iow   0%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+ 8472 u0_a154      10 -10  14G 336M 160M S 22.6  17.0   0:19.79 com.google.android.youtube
+  448 system       -3 -10  11G 3.1M 2.5M S 16.0   0.1   1:46.09 android.hardware.graphics.composer3-service.ranchu
+  431 media        20   0  11G  13M 7.6M S 10.0   0.6   0:03.10 android.hardware.media.c2@1.0-service-goldfish
+  485 system       -3  -8  11G  13M 7.6M S  9.0   0.6   0:32.22 surfaceflinger
+  612 system       18  -2  15G 224M 145M S  1.6  11.3   3:26.95 system_server
+  422 audioserver  20   0  10G 2.1M 2.0M S  1.3   0.1   0:07.31 android.hardware.audio.service
+ 8983 shell        20   0  10G 5.2M 3.9M R  0.6   0.2   0:00.15 top -m 15
+ 8705 root         20   0    0    0    0 I  0.6   0.0   0:00.36 [kworker/6:2-events]
+ 8021 root         20   0    0    0    0 I  0.6   0.0   0:00.90 [kworker/u20:3-phy1]
+  482 audioserver  20   0  11G 8.4M 7.2M S  0.6   0.4   0:02.19 audioserver
+  435 system       20   0  10G 2.1M 2.0M S  0.6   0.1   1:34.20 android.hardware.sensors-service.multihal
+ 8312 u0_a154      20   0  14G 193M 128M S  0.3   9.7   0:10.89 com.google.android.youtube.player
+ 8215 root         20   0    0    0    0 I  0.3   0.0   0:00.58 [kworker/8:2-virtio_vsock]
+ 7739 shell        20   0  10G 2.1M 2.0M S  0.3   0.1   0:01.87 process-tracker --interval 1000
+ 6139 shell        20   0  10G 2.1M 2.0M S  0.3   0.1   0:03.14 process-tracker --interval 1000
+
+
