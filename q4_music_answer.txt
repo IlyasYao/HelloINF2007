@@ -1,0 +1,1 @@
+ 8472 u0_a154      10 -10  14G 337M 165M S 21.3  17.0   0:34.46 com.google.android.youtube
