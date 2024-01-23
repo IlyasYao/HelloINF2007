@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         val currentDateTime = LocalDateTime.now()
         val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
         val formattedDateTime = currentDateTime.format(formatter)
-        Log.d("MainActivity","OnCreate function is created at yyyy-MM-dd HH:mm:ss")
+        Log.d("MainActivity","OnCreate function is created at $formattedDateTime")
 
         setContent {
             HelloINF2007Theme {
@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Column {
                         Greeting("INF2007")
-                        From("Ilyas")
+                        From("Elon Musk")
                     }
                 }
             }
